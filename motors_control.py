@@ -25,8 +25,6 @@ for speed in range(0,100,10):
     pwm.ChangeDutyCycle(speed)
     sleep(5)
     
-pwm.ChangeDutyCycle(100)
-
 # Остановка двигателя
 pwm.stop()
 
